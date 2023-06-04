@@ -19,7 +19,7 @@
 
 .personas{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 2.5rem;
 }
 

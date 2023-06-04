@@ -1,0 +1,36 @@
+.rodapie{
+    background: #fdfdfd;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.rodapie__titulo {
+    display: flex;
+    color: #8c8c8c;
+    font-weight: 400;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.rodapie__descripcion{
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    color: #8c8c8c;
+}
+
+.rodapie__lista{
+    display: flex;
+    list-style: none;
+}
+
+.rodapie__item {
+    list-style: none;
+}
+
+.rodapie__icon {
+    margin-right: 1.25rem;
+}

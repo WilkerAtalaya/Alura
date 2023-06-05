@@ -2,13 +2,15 @@
     background-color: #dab997;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 
 @media screen and (min-width:0) {
     .recetas{
-        padding: 1.5rem 0 0 1.5rem;
+        
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 0 0 1rem;
     }
 }
 
@@ -36,7 +38,7 @@
 @media screen and (min-width:0) {
     .receta{
         margin-right: 1rem;
-        width: calc(100%);
+        width: calc(85%);
     }
 }
 

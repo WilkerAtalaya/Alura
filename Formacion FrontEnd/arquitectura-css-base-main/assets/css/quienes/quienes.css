@@ -19,13 +19,41 @@
 
 .personas{
     display: flex;
-    justify-content: space-around;
+    
     padding-top: 2.5rem;
 }
+
+@media screen and (min-width:0) {
+    .personas{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .personas{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
 
 .persona {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width:0) {
+    .persona{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .persona{
+        margin-bottom: 0rem;
+    }
 }
 
 .persona__imagen {
@@ -36,6 +64,20 @@
     
     background-size: cover ;
     border-radius: 100%;
+}
+
+@media screen and (min-width:0) {
+    .persona__imagen{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .persona__imagen{
+        height: 300px;
+        width: 300px;
+    }
 }
 
 .persona__imagen--roberta{

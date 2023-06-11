@@ -26,7 +26,6 @@ while ( i < datos.length  &&  datos[i].precio > presupuestoDisponible){
 
 if(i == datos.length)
     console.log("No  hay pasajes disponibles para ese precio.");
-elseclear
-
+else
     console.log(`Puedas comprar pasajes para ${datos[i].ciudad}`);
  

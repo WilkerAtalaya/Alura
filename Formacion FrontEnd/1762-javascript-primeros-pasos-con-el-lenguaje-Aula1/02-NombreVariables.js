@@ -4,3 +4,4 @@ var costoDelPasaje = 1500;
 let tasaEmbarque = 50.5;
 
 console.log(direccion);
+console.log(nombreEmpleado.length);

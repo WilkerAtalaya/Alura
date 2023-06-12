@@ -1,4 +1,4 @@
-const btn = document.querySelector("[data-form-btn]");
+const btn = document.querySelector('[data-form-btn]');
 
 const createTask = (evento) => {
     evento.preventDefault();

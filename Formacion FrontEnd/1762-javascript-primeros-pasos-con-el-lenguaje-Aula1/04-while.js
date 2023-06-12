@@ -17,7 +17,7 @@ const datos = [
     },
 ];
 
-const presupuestoDisponible = 90;
+const presupuestoDisponible = 390;
 
 let i = 0;
 while ( i < datos.length  &&  datos[i].precio > presupuestoDisponible){

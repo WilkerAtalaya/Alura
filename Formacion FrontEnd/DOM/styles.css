@@ -87,8 +87,11 @@ form {
   align-content: center;
   margin: 5px 0px;
   position: relative;
+  background-color: rgb(121, 199, 252);
 }
-
+.fondocambiado{
+  background-color: rgb(106, 226, 196);
+}
 .task {
   padding: 10px;
 }
@@ -98,7 +101,7 @@ form {
 }
 
 .icon:hover {
-  color: rgba(62, 161, 219, 1);
+  color: rgb(37, 39, 41);
 }
 
 .completeIcon {

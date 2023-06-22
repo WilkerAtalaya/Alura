@@ -11,6 +11,7 @@ const empleado = new Empleado('Juan Perez','1234343',10000);
 empleado.asignarClave('12345');
 console.log(SistemaAutenticacion.login(empleado,'12345'));
 
+
 const gerente = new Gerente('Pedro Rivas','232344',12000);
 gerente.asignarClave('655');
 console.log(SistemaAutenticacion.login(gerente,'655'));
